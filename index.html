@@ -1,35 +1,12 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Unique page title - My Site</title>
-
-    <script type="module">
-      document.documentElement.classList.remove("no-js");
-      document.documentElement.classList.add("js");
-    </script>
-
-    <link rel="stylesheet" href="/assets/css/styles.css" />
-    <link rel="stylesheet" href="/assets/css/print.css" media="print" />
-
-    <meta name="description" content="Page description" />
-    <meta property="og:title" content="Unique page title - My Site" />
-    <meta property="og:description" content="Page description" />
-    <meta property="og:image" content="https://www.mywebsite.com/image.jpg" />
-    <meta property="og:image:alt" content="Image description" />
-    <meta property="og:locale" content="en_GB" />
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta property="og:url" content="https://www.mywebsite.com/page" />
-    <link rel="canonical" href="https://www.mywebsite.com/page" />
-
-    <link rel="icon" href="/favicon.ico" />
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-    <link rel="manifest" href="/my.webmanifest" />
-    <!-- <meta name="theme-color" content="#FF00FF" /> -->
+    <title>Practice</title>
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <meta name="theme-color" content="#FF00FF" />
     <meta
       name="theme-color"
       content="#FCC737"
@@ -37,15 +14,208 @@
     />
     <meta
       name="theme-color"
-      content="#3674B5"
+      content="#f6755e"
       media="(prefers-color-scheme: light)"
     />
   </head>
 
   <body>
-    <!-- Content -->
+    <!-- Header -->
+    <header class="header_section">
+      <div class="left">
+        <button
+          popovertarget="menu"
+          popovertargetaction="show"
+          class="Hamburger-menu"
+        >
+          <img src="./assets/img/menu-line.svg" alt="" width="32" height="32" />
+        </button>
 
-    <script src="/assets/js/xy-polyfill.js" nomodule></script>
-    <script src="/assets/js/script.js" type="module"></script>
+        <!-- <div popover id="my-popover">Greetings, one and all!</div> -->
+      </div>
+      <div class="middle">
+        <div class="logo"><a href="">atikul</a></div>
+      </div>
+      <div class="right">
+        <div class="login">
+          <a href="./login.html" class="button alt">Login</a>
+        </div>
+      </div>
+    </header>
+    <!-- main -->
+    <main>
+      <section id="banner">
+        <div class="banner-container">
+          <div class="banner-item">
+            <h2>Lorem ipsum</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              <br />Lorem ipsum dolor sit, amet.
+            </p>
+            <ul class="actions">
+              <li><a href="#one" class="button scrolly">Get Started</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="one" class="wrapper">
+        <div class="inner">
+          <div class="inner-item">
+            <div class="first">
+              <h4>Lorem, ipsum.</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing consectetur
+                adipisicing elit.
+              </p>
+            </div>
+            <div class="last">
+              <h4>Lorem, ipsum.</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing consectetur
+                adipisicing elit.
+              </p>
+            </div>
+          </div>
+          <div class="inner-item">
+            <inner-img
+              ><img
+                src="./assets/img/pic01.jpg"
+                class="round-img"
+                width="300"
+                height="300"
+                alt=""
+            /></inner-img>
+          </div>
+          <div class="inner-item">
+            <div class="first">
+              <h4>Lorem, ipsum.</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing consectetur
+                adipisicing elit.
+              </p>
+            </div>
+            <div class="last">
+              <h4>Lorem, ipsum.</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing consectetur
+                adipisicing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="two" class="wrapper">
+        <div class="inner">
+          <div class="inner-item">
+            <h2>loremn lorem</h2>
+            <figure>
+              <blockquote>
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Ducimus, atque.<br />
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil,
+                repudiandae?."
+              </blockquote>
+              <footer>
+                <cite class="author">Lorem, ipsum </cite>
+                <cite class="company">CEO, USA </cite>
+              </footer>
+            </figure>
+          </div>
+        </div>
+      </section>
+      <section id="three" class="wrapper">
+        <div class="inner gl-content">
+          <div class="inner-item">
+            <img
+              src="./assets/img/pic02.jpg"
+              alt=""
+              width="418"
+              height="200"
+              class="img-fit"
+            />
+            <div class="content">
+              <h3>Lorem Lorem</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+                inventore.
+              </p>
+            </div>
+          </div>
+          <div class="inner-item">
+            <img
+              src="./assets/img/pic03.jpg"
+              alt=""
+              width="418"
+              height="200"
+              class="img-fit"
+            />
+            <div class="content">
+              <h3>Lorem Lorem</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+                inventore.
+              </p>
+            </div>
+          </div>
+          <div class="inner-item">
+            <img
+              src="./assets/img/pic04.jpg"
+              alt=""
+              width="418"
+              height="200"
+              class="img-fit"
+            />
+            <div class="content">
+              <h3>Lorem Lorem</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+                inventore.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="four" class="wrapper">
+        <div class="inner">
+          <div class="inner-item">
+            <h4>Get In Touch</h4>
+            <ul class="actions">
+              <li>
+                <span class="icon fa-phone"
+                  ><img src="./assets/img/phone-fill.svg" alt="" /></span
+                ><a href="tel:+(000) 000-0000">(000) 000-0000</a>
+              </li>
+              <li>
+                <span class="icon fa-envelope"
+                  ><img src="./assets/img/mail-line.svg" alt="" /></span
+                ><a href="mailto: information@untitled.tld">
+                  xxxxxx@gmail.com</a
+                >
+              </li>
+              <li>
+                <span class="icon fa-map-marker"
+                  ><img src="./assets/img/map-pin-2-fill.svg" alt="" /></span
+                >123 Somewhere Road, Nashville, TN 00000
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="copywright">power by <a href="#">Atikul</a></div>
+    </footer>
+    <nav popover role="menu" class="visible" id="menu">
+      <ul class="visible-content">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <button popovertarget="menu" popovertargetaction="hide" class="close">
+        close
+      </button>
+    </nav>
   </body>
 </html>
